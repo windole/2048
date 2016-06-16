@@ -13,3 +13,17 @@ function showNumberWithAnimation( i , j , randNumber ){
         left:getPosLeft( i , j )
     },50);
 }
+
+
+function showMoveAnimation(formx,formy,tox,toy) {
+	var numberCell = $('#number-cell-' + formx + "-" + formy );
+
+	numberCell.animate({
+		top:getPosTop(tox,toy),
+		left:getPosLeft(tox,toy)
+	},200);
+}
+
+function updateScore(score) {
+    $("#score").text(score);
+}
