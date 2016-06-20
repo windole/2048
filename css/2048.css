@@ -1,20 +1,20 @@
 header{
 	display: block;
 	margin:0 auto;
-	width: 200px;
+	width: 100%;
 	text-align: center;	
 }
 
 header h1{
 	font-family: Arial;
-	font-size: 60px;
+	font-size: 40px;
 	font-weight: bold;
 	margin: 10px auto;
 }
 
 header #newgamebutton{
 	display: block;
-	margin: 10px auto;
+	margin: 0px auto;
 
 	width: 100px;
 	padding: 10px 10px;
